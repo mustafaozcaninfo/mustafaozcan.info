@@ -3885,11 +3885,11 @@ display:none;
        @media only screen and (min-width: 320px) and (max-width: 479px) {
        /* layout */
 	      .inner {
-		     width: 280px;
+		     width: 420px;
 	      }
 	      .main {
 		     float:none;
-		     width: auto;
+		     width: 440px;
 	      }
 	      .sidebar {
 		     float: none;	
@@ -4215,7 +4215,7 @@ display:none;
 @media screen and (max-width: 978px) {
   	.wrapper { width: 725px; }
 	#header { text-align:center;  }
-	#header nav { float:none; padding-top:80px; }
+	#header nav { float:none; padding-top:30px; }
 	#header .title { float:none; position:
 	absolute; width:100%; top:0px; margin-left:0; }
 	.portfolio-items .item { width:220px; }
@@ -4245,8 +4245,8 @@ display:none;
 /* ---------------------------------- */
 /* PHONE VIEW WIDTHS */
 @media screen and (max-width: 767px) {
-  	.wrapper { width:460px; }
-	#header { padding-top:0px; text-align:left; }
+  	.wrapper { width:450px; }
+	#header { padding-top:0px; text-align:center; }
 	#header .title { padding-top:30px; }
 	#header nav ul { display:none; }
 	.mobile-nav, #header nav:after { display:block; }
